@@ -13,4 +13,4 @@ The detailed documentation will be added at Wiki soon.
 I didn't check LWRP or HDRP version, but it may works. I'll check this soon.
 
 ## License
-You can you this for free.
+You can use this for free.
