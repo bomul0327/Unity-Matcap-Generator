@@ -45,7 +45,6 @@ namespace UnrealChan
                     Texture2D saved = (Texture2D)AssetDatabase.LoadAssetAtPath(fullPath, typeof(Texture2D));
 
                     script.ApplyToMaterial(saved);
-                    script.TextureProperty = string.Empty;
                 }
             }
 

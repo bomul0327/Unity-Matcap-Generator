@@ -13,7 +13,7 @@ public class MatcapGenerator : MonoBehaviour
     public string FileName = "Default";
 
     public Material TargetMaterial;
-    
+
     public bool ApplyMatcapTexture = false;
 
     [HideInInspector]
@@ -36,9 +36,10 @@ public class MatcapGenerator : MonoBehaviour
 
     void LateUpdate()
     {
+        GeneratedTexture = Capture();
+        
         if (ApplyMatcapTexture && TextureProperty != string.Empty)
         {
-            GeneratedTexture = Capture();
             ApplyToMaterial(GeneratedTexture);
         }
     }
