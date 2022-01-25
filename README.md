@@ -17,8 +17,15 @@
  You can download this from the github repository or from releases(https://github.com/bomul0327/Unity-Matcap-Generator/releases)
  
 ### Install
- * If you downloaded source code then just put inside of your Assets folder.
- * If you downloaded package, import the package.
+ Please install through package, not source code.
+
+### How to Use?
+ 1. Place "Matcap Generator" prefab on your scene.
+ 2. Select the prefab.
+ 3. By changing variables, you can change the size of texture, path.
+ 4. If you want to apply your matcap texture to your material, add the material on "Target Material". Then, Check "Apply Matcap Texture".
+ 5. By changing "Target Texture Property", you can apply matcap texture where you want.
+ 6. Press "Save Matcap Texture" to save your matcap texture.
 
 ## License
  You can use this for free.
